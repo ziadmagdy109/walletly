@@ -12,7 +12,7 @@ class ButtonOnSplash extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        Navigator.pushReplacementNamed(context, Routes.home);
+        Navigator.pushReplacementNamed(context, Routes.mainLayout);
       },
       child: Container(
         height: 40.h,

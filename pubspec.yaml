@@ -10,8 +10,11 @@ dependencies:
   cupertino_icons: ^1.0.8
   flutter:
     sdk: flutter
+  flutter_bloc: ^9.1.1
   flutter_screenutil: ^5.9.3
+  flutter_svg: ^2.2.2
   google_fonts: ^6.3.2
+  heroicons: ^0.11.0
 
 dev_dependencies:
   flutter_lints: ^5.0.0

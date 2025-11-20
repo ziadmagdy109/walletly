@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:walletly/core/routing/routes.dart';
 import 'package:walletly/features/home/presentation/views/home_view.dart';
 import 'package:walletly/features/onSplash/presentation/views/on_splash_view.dart';
+import 'package:walletly/main_layout.dart';
 
 class AppRouter {
   static Route? generateRoute(RouteSettings settings) {
@@ -10,6 +11,8 @@ class AppRouter {
         return MaterialPageRoute(builder: (context) => OnSplashView());
       case Routes.home:
         return MaterialPageRoute(builder: (context) => HomeView());
+      case Routes.mainLayout:
+        return MaterialPageRoute(builder: (context) => MainLayout());
       default:
         return MaterialPageRoute(
           builder: (context) => Scaffold(
