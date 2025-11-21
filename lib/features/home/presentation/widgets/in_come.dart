@@ -22,7 +22,7 @@ class InCome extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             SvgPicture.asset(
-              "assets/icon_income.svg",
+              AppConstants.kImageIconIncome,
               height: 48.h,
               width: 48.w,
             ),

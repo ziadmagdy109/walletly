@@ -14,10 +14,7 @@ class AppTextStyle {
     fontSize: 14.sp,
     fontWeight: FontWeight.w400,
   );
-  static TextStyle font16Weight500 = TextStyle(
-    fontSize: 16.sp,
-    fontWeight: FontWeight.w500,
-  );
+
   static TextStyle font10Weight500 = TextStyle(
     fontSize: 10.sp,
     fontWeight: FontWeight.w500,
@@ -26,6 +23,18 @@ class AppTextStyle {
     fontSize: 12.sp,
     fontWeight: FontWeight.w500,
   );
+  static TextStyle font13Weight500 = TextStyle(
+    fontSize: 13.sp,
+    fontWeight: FontWeight.w500,
+  );
+  static TextStyle font16Weight500 = TextStyle(
+    fontSize: 16.sp,
+    fontWeight: FontWeight.w500,
+  );
+  static TextStyle font16Weight600 = TextStyle(
+    fontSize: 16.sp,
+    fontWeight: FontWeight.w600,
+  );
   static TextStyle font18Weight400 = TextStyle(
     fontSize: 18.sp,
     fontWeight: FontWeight.w400,
@@ -33,6 +42,10 @@ class AppTextStyle {
   static TextStyle font20Weight400 = TextStyle(
     fontSize: 20.sp,
     fontWeight: FontWeight.w400,
+  );
+  static TextStyle font20Weight600 = TextStyle(
+    fontSize: 20.sp,
+    fontWeight: FontWeight.w600,
   );
   static TextStyle font22Weight400 = TextStyle(
     fontSize: 22.sp,

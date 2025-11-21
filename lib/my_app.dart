@@ -18,6 +18,10 @@ class MyApp extends StatelessWidget {
           debugShowCheckedModeBanner: false,
           onGenerateRoute: AppRouter.generateRoute,
           theme: ThemeData(
+            appBarTheme: AppBarTheme(
+              backgroundColor: AppColors.colorBackGround,
+              surfaceTintColor: AppColors.colorBackGround,
+            ),
             scaffoldBackgroundColor: AppColors.colorBackGround,
             textTheme: GoogleFonts.poppinsTextTheme(),
           ),

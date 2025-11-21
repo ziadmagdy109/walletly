@@ -3,6 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:walletly/core/utils/app_colors.dart';
+import 'package:walletly/core/utils/app_constants.dart';
 import 'package:walletly/core/utils/app_text_style.dart';
 import 'package:walletly/features/Transaction/presentation/views/transaction_view.dart';
 import 'package:walletly/features/addTransaction/presentation/views/add_transaction.dart';
@@ -42,16 +43,16 @@ class MainLayout extends StatelessWidget {
                     Row(
                       children: [
                         bottomItem(
-                          image: "assets/home.svg",
-                          label: "Home",
+                          image: AppConstants.kIconHome,
+                          label: AppConstants.kTextHome,
                           index: 0,
                           currentIndex: currentIndex,
                           context: context,
                         ),
                         SizedBox(width: 25.w),
                         bottomItem(
-                          image: "assets/Transaction.svg",
-                          label: "Transaction",
+                          image: AppConstants.kImageTransaction,
+                          label: AppConstants.kTransaction,
                           index: 1,
                           currentIndex: currentIndex,
                           context: context,
@@ -62,16 +63,16 @@ class MainLayout extends StatelessWidget {
                     Row(
                       children: [
                         bottomItem(
-                          image: "assets/pie chart.svg",
-                          label: "Statistics",
+                          image: AppConstants.kImageStatitics,
+                          label: AppConstants.kStatitics,
                           index: 3,
                           currentIndex: currentIndex,
                           context: context,
                         ),
                         SizedBox(width: 25.w),
                         bottomItem(
-                          image: "assets/user.svg",
-                          label: "Profile",
+                          image: AppConstants.kImageProfile,
+                          label: AppConstants.kProfile,
                           index: 4,
                           currentIndex: currentIndex,
                           context: context,

@@ -22,7 +22,7 @@ class Expenses extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             SvgPicture.asset(
-              "assets/icon_expenses.svg",
+              AppConstants.kImageIconExpenses,
               height: 48.h,
               width: 48.w,
             ),
