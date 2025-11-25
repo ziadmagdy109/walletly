@@ -8,9 +8,11 @@ environment:
 
 dependencies:
   cupertino_icons: ^1.0.8
+  dropdown_button2: ^2.3.9
   flutter:
     sdk: flutter
   flutter_bloc: ^9.1.1
+  flutter_dropdown: ^1.0.1+hotfix.1
   flutter_screenutil: ^5.9.3
   flutter_svg: ^2.2.2
   google_fonts: ^6.3.2

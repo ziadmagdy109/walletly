@@ -3,7 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:walletly/core/utils/app_colors.dart';
 import 'package:walletly/core/utils/app_constants.dart';
 import 'package:walletly/core/utils/app_text_style.dart';
-import 'package:walletly/features/onSplash/presentation/widgets/button_on_splash.dart';
+import 'package:walletly/core/widgets/button_press.dart';
 
 class OnSplashView extends StatelessWidget {
   const OnSplashView({super.key});
@@ -43,7 +43,7 @@ class OnSplashView extends StatelessWidget {
             ),
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 60.w),
-              child: ButtonOnSplash(),
+              child: ButtonPress(textButton: AppConstants.kTextButtonOnSplash),
             ),
           ],
         ),

@@ -3,6 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:walletly/core/routing/app_router.dart';
 import 'package:walletly/core/utils/app_colors.dart';
+import 'package:walletly/core/utils/app_text_style.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -21,6 +22,9 @@ class MyApp extends StatelessWidget {
             appBarTheme: AppBarTheme(
               backgroundColor: AppColors.colorBackGround,
               surfaceTintColor: AppColors.colorBackGround,
+              titleTextStyle: AppTextStyle.font20Weight600.copyWith(
+                color: AppColors.myBlack,
+              ),
             ),
             scaffoldBackgroundColor: AppColors.colorBackGround,
             textTheme: GoogleFonts.poppinsTextTheme(),

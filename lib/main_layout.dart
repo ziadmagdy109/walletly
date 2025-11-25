@@ -9,6 +9,8 @@ import 'package:walletly/features/Transaction/presentation/views/transaction_vie
 import 'package:walletly/features/addTransaction/presentation/views/add_transaction.dart';
 import 'package:walletly/features/home/presentation/cubit/navigation_cubit.dart';
 import 'package:walletly/features/home/presentation/views/home_view.dart';
+import 'package:walletly/features/settings/presentation/views/settings_view.dart';
+import 'package:walletly/features/statitcs/presentation/views/statitcs_view.dart';
 
 class MainLayout extends StatelessWidget {
   final int currentIndex = 0;
@@ -16,8 +18,8 @@ class MainLayout extends StatelessWidget {
     HomeView(),
     TransactionView(),
     AddTransaction(),
-    HomeView(),
-    HomeView(),
+    StatitcsView(),
+    SettingsView(),
   ];
 
   @override
@@ -71,8 +73,8 @@ class MainLayout extends StatelessWidget {
                         ),
                         SizedBox(width: 25.w),
                         bottomItem(
-                          image: AppConstants.kImageProfile,
-                          label: AppConstants.kProfile,
+                          image: AppConstants.kImageSettings,
+                          label: AppConstants.kSettings,
                           index: 4,
                           currentIndex: currentIndex,
                           context: context,

@@ -17,13 +17,15 @@ class AppConstants {
   static const String kRecentTitle = "Income";
   static const String kRecentTitle2 = "Food";
   static const String kTransactions = "Transactions";
+  static const String kAddTransactions = "Add transactions";
   static const String kTextHome = "Home";
   static const String kTransaction = "Transaction";
   static const String kStatitics = "Statitics";
-  static const String kProfile = "Profile";
+  static const String kSettings = "Settings";
   static const String kShopping = "Shopping";
   static const String kBuySomeGrocery = "Buy some grocery";
   static const String kTransactionPrice = "- 5120";
+  static const String kContinue = "Continue";
 
   // Assets
   static const String kImageSplash = "assets/image_onsplash.png";
@@ -35,7 +37,7 @@ class AppConstants {
   static const String kIconHome = "assets/home.svg";
   static const String kImageTransaction = "assets/Transaction.svg";
   static const String kImageStatitics = "assets/pie chart.svg";
-  static const String kImageProfile = "assets/user.svg";
+  static const String kImageSettings = "assets/settings-filled.svg";
   // static const String
   // static const String
   // static const String

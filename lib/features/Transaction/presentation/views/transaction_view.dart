@@ -10,10 +10,7 @@ class TransactionView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(
-          AppConstants.kTransactions,
-          style: AppTextStyle.font20Weight400,
-        ),
+        title: Text(AppConstants.kTransactions),
         centerTitle: true,
       ),
       body: SingleChildScrollView(

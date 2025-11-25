@@ -22,7 +22,7 @@ class HomeView extends StatelessWidget {
             TotalBalance(),
             SizedBox(height: 20.h),
             RowIncomeAndExpenses(),
-            SizedBox(height: 20.h),
+            SizedBox(height: 40.h),
             Column(
               children: [
                 RowRecentAndViewAll(),

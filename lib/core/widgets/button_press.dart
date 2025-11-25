@@ -2,15 +2,16 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:walletly/core/routing/routes.dart';
 import 'package:walletly/core/utils/app_colors.dart';
-import 'package:walletly/core/utils/app_constants.dart';
 import 'package:walletly/core/utils/app_text_style.dart';
 
-class ButtonOnSplash extends StatelessWidget {
-  const ButtonOnSplash({super.key});
+class ButtonPress extends StatelessWidget {
+  const ButtonPress({super.key, required this.textButton});
+  final String textButton;
 
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
+      // on tap custom
       onTap: () {
         Navigator.pushReplacementNamed(context, Routes.mainLayout);
       },
@@ -23,7 +24,7 @@ class ButtonOnSplash extends StatelessWidget {
         ),
         child: Center(
           child: Text(
-            AppConstants.kTextButtonOnSplash,
+            textButton,
             style: AppTextStyle.font14Weight500.copyWith(
               color: AppColors.myWhite,
             ),
