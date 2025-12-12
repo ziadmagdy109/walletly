@@ -42,4 +42,12 @@ class AppLists {
     AppConstants.kImageArrowIncome,
   ];
   static const List<String> recentPrice = ["15000", "5400", "670"];
+  //
+  static const List<String> iconSettings = [
+    "assets/World.svg",
+    "assets/Rectangles.svg",
+    "assets/logout.svg",
+  ];
+  //
+  static const List<String> textTitle = ["Language", "Dark mood", "Logout"];
 }

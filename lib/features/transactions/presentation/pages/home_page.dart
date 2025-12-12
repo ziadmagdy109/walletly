@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:walletly/features/home/presentation/widgets/app_bar_home.dart';
-import 'package:walletly/features/home/presentation/widgets/list_view_builder_item.dart';
-import 'package:walletly/features/home/presentation/widgets/row_income_and_expenses.dart';
-import 'package:walletly/features/home/presentation/widgets/row_recent_and_view_all.dart';
-import 'package:walletly/features/home/presentation/widgets/total_balance.dart';
+import 'package:walletly/features/transactions/presentation/widgets/app_bar_home.dart';
+import 'package:walletly/features/transactions/presentation/widgets/list_view_builder_item.dart';
+import 'package:walletly/features/transactions/presentation/widgets/row_income_and_expenses.dart';
+import 'package:walletly/features/transactions/presentation/widgets/row_recent_and_view_all.dart';
+import 'package:walletly/features/transactions/presentation/widgets/total_balance.dart';
 
 class HomeView extends StatelessWidget {
   const HomeView({super.key});

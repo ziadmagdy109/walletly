@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:walletly/core/utils/app_colors.dart';
-import 'package:walletly/features/addTransaction/presentation/widgets/category_dropdown.dart';
-import 'package:walletly/features/addTransaction/presentation/widgets/describe_dropdown.dart';
+import 'package:walletly/features/transactions/presentation/widgets/category_dropdown.dart';
+import 'package:walletly/features/transactions/presentation/widgets/describe_dropdown.dart';
 
 class ContainerAddTransaction extends StatelessWidget {
   const ContainerAddTransaction({super.key});

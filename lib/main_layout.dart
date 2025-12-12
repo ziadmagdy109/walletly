@@ -5,11 +5,11 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:walletly/core/utils/app_colors.dart';
 import 'package:walletly/core/utils/app_constants.dart';
 import 'package:walletly/core/utils/app_text_style.dart';
-import 'package:walletly/features/Transaction/presentation/views/transaction_view.dart';
-import 'package:walletly/features/addTransaction/presentation/views/add_transaction.dart';
-import 'package:walletly/features/home/presentation/cubit/navigation_cubit.dart';
-import 'package:walletly/features/home/presentation/views/home_view.dart';
-import 'package:walletly/features/settings/presentation/views/settings_view.dart';
+import 'package:walletly/features/transactions/presentation/pages/transaction_view.dart';
+import 'package:walletly/features/transactions/presentation/pages/add_transaction_page.dart';
+import 'package:walletly/features/transactions/logic/cubit/navigation_cubit.dart';
+import 'package:walletly/features/transactions/presentation/pages/home_page.dart';
+import 'package:walletly/features/settings/presentation/settings_view.dart';
 import 'package:walletly/features/statitcs/presentation/views/statitcs_view.dart';
 
 class MainLayout extends StatelessWidget {
@@ -74,7 +74,7 @@ class MainLayout extends StatelessWidget {
                         SizedBox(width: 25.w),
                         bottomItem(
                           image: AppConstants.kImageSettings,
-                          label: AppConstants.kSettings,
+                          label: AppConstants.kSetting,
                           index: 4,
                           currentIndex: currentIndex,
                           context: context,

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:walletly/features/home/presentation/widgets/expenses.dart';
-import 'package:walletly/features/home/presentation/widgets/in_come.dart';
+import 'package:walletly/features/transactions/presentation/widgets/expenses.dart';
+import 'package:walletly/features/transactions/presentation/widgets/in_come.dart';
 
 class RowIncomeAndExpenses extends StatelessWidget {
   const RowIncomeAndExpenses({super.key});

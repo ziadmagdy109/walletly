@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:walletly/core/routing/routes.dart';
-import 'package:walletly/features/home/presentation/views/home_view.dart';
-import 'package:walletly/features/onSplash/presentation/views/on_splash_view.dart';
+import 'package:walletly/features/transactions/presentation/pages/home_page.dart';
+import 'package:walletly/features/splash/presentation/views/on_splash_view.dart';
 import 'package:walletly/main_layout.dart';
 
 class AppRouter {

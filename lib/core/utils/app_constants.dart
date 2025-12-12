@@ -17,11 +17,11 @@ class AppConstants {
   static const String kRecentTitle = "Income";
   static const String kRecentTitle2 = "Food";
   static const String kTransactions = "Transactions";
+  static const String kSetting = "Setting";
   static const String kAddTransactions = "Add transactions";
   static const String kTextHome = "Home";
   static const String kTransaction = "Transaction";
   static const String kStatitics = "Statitics";
-  static const String kSettings = "Settings";
   static const String kShopping = "Shopping";
   static const String kBuySomeGrocery = "Buy some grocery";
   static const String kTransactionPrice = "- 5120";

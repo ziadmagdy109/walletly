@@ -4,8 +4,8 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:walletly/core/utils/app_constants.dart';
 import 'package:walletly/core/utils/app_text_style.dart';
 import 'package:walletly/core/widgets/button_press.dart';
-import 'package:walletly/features/addTransaction/presentation/cubit/add_transaction_cubit.dart';
-import 'package:walletly/features/addTransaction/presentation/widgets/container_add_transaction.dart';
+import 'package:walletly/features/transactions/logic/cubit/add_transaction_cubit.dart';
+import 'package:walletly/features/transactions/presentation/widgets/container_add_transaction.dart';
 
 class AddTransaction extends StatelessWidget {
   const AddTransaction({super.key});
