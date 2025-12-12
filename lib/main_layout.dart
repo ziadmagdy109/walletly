@@ -9,7 +9,7 @@ import 'package:walletly/features/transactions/presentation/pages/transaction_vi
 import 'package:walletly/features/transactions/presentation/pages/add_transaction_page.dart';
 import 'package:walletly/features/transactions/logic/cubit/navigation_cubit.dart';
 import 'package:walletly/features/transactions/presentation/pages/home_page.dart';
-import 'package:walletly/features/settings/presentation/settings_view.dart';
+import 'package:walletly/features/settings/presentation/views/settings_view.dart';
 import 'package:walletly/features/statitcs/presentation/views/statitcs_view.dart';
 
 class MainLayout extends StatelessWidget {
