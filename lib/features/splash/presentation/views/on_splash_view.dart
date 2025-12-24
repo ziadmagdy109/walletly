@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:walletly/core/routing/routes.dart';
 import 'package:walletly/core/utils/app_colors.dart';
 import 'package:walletly/core/utils/app_constants.dart';
 import 'package:walletly/core/utils/app_text_style.dart';
@@ -19,7 +20,7 @@ class OnSplashView extends StatelessWidget {
               width: double.infinity.w,
               fit: BoxFit.cover,
             ),
-            SizedBox(height: 130.h),
+            SizedBox(height: 100.h),
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 20.w),
               child: Column(
@@ -37,13 +38,29 @@ class OnSplashView extends StatelessWidget {
                       color: AppColors.myBlack,
                     ),
                   ),
-                  SizedBox(height: 90.h),
+                  SizedBox(height: 50.h),
                 ],
               ),
             ),
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 60.w),
-              child: ButtonPress(textButton: AppConstants.kTextButtonOnSplash),
+              child: Column(
+                children: [
+                  ButtonPress(
+                    textButton: AppConstants.kLogin,
+                    ontab: () {
+                      Navigator.pushNamed(context, Routes.signIn);
+                    },
+                  ),
+                  SizedBox(height: 10.h),
+                  ButtonPress(
+                    textButton: AppConstants.kCreateAccount,
+                    ontab: () {
+                      Navigator.pushNamed(context, Routes.signUp);
+                    },
+                  ),
+                ],
+              ),
             ),
           ],
         ),

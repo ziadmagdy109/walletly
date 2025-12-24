@@ -26,6 +26,8 @@ class AppConstants {
   static const String kBuySomeGrocery = "Buy some grocery";
   static const String kTransactionPrice = "- 5120";
   static const String kContinue = "Continue";
+  static const String kLogin = "Login";
+  static const String kCreateAccount = "Create account";
 
   // Assets
   static const String kImageSplash = "assets/image_onsplash.png";
